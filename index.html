@@ -10,7 +10,7 @@
 <head>
 	<!-- Basic Page Needs -->
 	<meta charset="utf-8">
-	<title>Be</title>
+	<title>Ala</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<!-- Mobile Specific Metas -->
@@ -26,8 +26,14 @@
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- CSS -->
+	<link rel='stylesheet' href='css/global.css'>
+    <link rel='stylesheet' href='css/structure.css'>
+    <link rel='stylesheet' id='style-static' href='css/be_style.css'>
+    <link rel='stylesheet' href='css/custom.css'>
+
 	<link rel='stylesheet' href='content/cleaner3/css/structure.css'>
 	<link rel='stylesheet' href='content/cleaner3/css/cleaner3.css'>
+	<link rel="stylesheet" href="css/custom.css">
 	<!-- Revolution Slider -->
 	<link rel="stylesheet" href="plugins/rs-plugin-6.custom/css/rs6.css">
 </head>
@@ -35,13 +41,13 @@
 <body class="home page template-slider style-simple button-custom layout-full-width one-page if-zoom if-border-hide no-content-padding no-shadows header-modern sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color menuo-right menuo-no-borders logo-no-margin mobile-tb-center mobile-side-slide mobile-mini-mr-ll tr-menu ">
 	<div id="Wrapper">
 		<div id="Header_wrapper">
-			<header id="Header">
+			<header id="Header" class="headerdesktop">
 				
-				<div class="mfn-main-slider mfn-rev-slider">
+				<div class="mfn-main-slider mfn-rev-slider" >
 					<p class="rs-p-wp-fix"></p>
 					<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="background:transparent;padding:0;">
 						<rs-module id="rev_slider_1_1" data-version="6.3.3">
-							<rs-slides>
+							<rs-slides id="heromobile">
 								<rs-slide data-key="rs-1" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
 									<img src="content/cleaner3/images/cleaner3-slider-bg.jpg" data-parallax="1" class="rev-slidebg">
 									<rs-layer id="slider-1-slide-1-layer-0" class="rs-pxl-5" data-type="image" data-rsp_ch="on" data-xy="xo:-829px,-829px,-585px,-360px;yo:-604px,-604px,-426px,-262px;" data-text="w:normal;s:20,20,13,8;l:0,0,17,10;" data-dim="w:1124px,1124px,794px,489px;h:1945px,1945px,1375px,848px;" data-frame_999="o:0;st:w;" style="z-index:5;">
@@ -56,7 +62,7 @@
 									</rs-layer>
 									<rs-layer id="slider-1-slide-1-layer-8" data-type="text" data-color="#0069ab" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:181px,181px,10px,0;y:m;yo:40px,40px,-136px,-44px;" data-text="w:normal;s:60,60,50,36;l:80,80,60,46;fw:900;" data-dim="w:710px,710px,auto,auto;" data-frame_999="o:0;st:w;" style="z-index:7;font-family:Maven Pro;">
 									</rs-layer>
-									<rs-layer id="slider-1-slide-1-layer-9" data-type="text" data-color="#0069ab" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:165px,165px,40px,25px;y:m;yo:-40px,-40px,-209px,-148px;" data-text="w:normal;s:60,60,50,36;l:80,80,60,46;fw:900;" data-dim="w:710px,710px,auto,auto;" data-frame_999="o:0;st:w;" style="z-index:7;font-family:'Montserrat', sans-serif;">CÓMO AHORRAR
+									<rs-layer id="slider-1-slide-1-layer-9" cl data-type="text" data-color="#0069ab" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:165px,165px,40px,25px;y:m;yo:-40px,-40px,-209px,-148px;" data-text="w:normal;s:60,60,50,36;l:80,80,60,46;fw:900;" data-dim="w:710px,710px,auto,auto;" data-frame_999="o:0;st:w;" style="z-index:7;font-family:'Montserrat', sans-serif;">CÓMO AHORRAR
 										EN EL LAVADO DE ROPA</rs-layer>
 									<rs-layer id="slider-1-slide-1-layer-10" data-type="text" data-color="#0069ab" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:165px,165px,40px,25px;y:m;yo:120px,120px,-62px,-98px;" data-text="w:normal;s:20,20,30,16;l:30,30,20,16;fw:900;" data-dim="w:710px,710px,auto,auto;" data-frame_999="o:0;st:w;" style="z-index:7;font-family: 'Roboto', sans-serif;">	<span> Productos, trucos y consejos para potenciar el rendimiento de cada lavado y alcanzar ese lema que
 										tan bien define esta época: más con menos.</span>
@@ -120,11 +126,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="section mcb-section mobile_small_padding" style="padding-top:130px;padding-bottom:90px;background-color:#e5fdfd;background-image:url(imgss/examarilla.png);background-repeat:no-repeat;background-position:center">
+					<div class="section mcb-section mobile_small_padding" id="pasodesktop" style="padding-top:130px;padding-bottom:90px;background-color:#e5fdfd;background-image:url(imgss/examarilla.png);background-repeat:no-repeat;background-position:center">
 						<div class="container">
 							<div class="row">
 								<div class="col-12">
-									<h1 style="text-align: center;">¿CÓMO USARLO?</h1>
+									<h2 style="text-align: center;">¿CÓMO USARLO?</h2>
 									<div class="image_frame image_item scale-with-grid aligncenter no_border">
 										<div class="image_wrapper">
 											<a >
@@ -141,7 +147,65 @@
 							</div>
 						</div>
 					</div>
-					<div class="section mcb-section equal-height-wrap" style="background-color:#e5fdfd; background-image: url(/content/cleaner3/images/cleaner3-section-bg1.png);">
+
+					<div class="section full-width flv_sections_16" id="pasomobile" style="background-color: #e5fdfd;">
+						<div class="section_wrapper clearfix">
+								<div class="items_group clearfix">
+										<!-- One full width row-->
+										<div class="column one column_portfolio_slider">
+												<div class="portfolio_slider">
+														<a class="slider_nav slider_prev themebg" href="#"><i class="icon-left-open-big"></i></a><a class="slider_nav slider_next themebg" href="#"><i class="icon-right-open-big"></i></a>
+														<ul class="portfolio_slider_ul">
+																<li>
+																		<div class="image_frame scale-with-grid">
+																				<div class="image_wrapper">
+																						<a >
+																								<div class="mask"></div><img width="576" height="450" src="imgss/pasoapasomobile/1.png" class="scale-with-grid wp-post-image" />
+																						</a>
+																						
+																				</div>
+																		</div>
+																</li>
+																<li>
+																		<div class="image_frame scale-with-grid">
+																				<div class="image_wrapper">
+																						<a>
+																								<div class="mask"></div><img width="576" height="450" src="imgss/pasoapasomobile/2.png" class="scale-with-grid wp-post-image" />
+																						</a>
+																						
+																				</div>
+																		</div>
+																</li>
+																<li>
+																		<div class="image_frame scale-with-grid">
+																				<div class="image_wrapper">
+																						<a>
+																								<div class="mask"></div><img width="576" height="450" src="imgss/pasoapasomobile/3.png" class="scale-with-grid wp-post-image" />
+																						</a>
+																						
+																				</div>
+																		</div>
+																</li>
+																<li>
+																		<div class="image_frame scale-with-grid">
+																				<div class="image_wrapper">
+																						<a>
+																								<div class="mask"></div><img width="576" height="450" src="imgss/pasoapasomobile/4.png" class="scale-with-grid wp-post-image" />
+																						</a>
+																						
+																				</div>
+																		</div>
+																</li>
+																
+														</ul>
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+
+
+					<div class="section mcb-section equal-height-wrap" style="background-color:#e5fdfd; background-image: url(/content/cleaner3/images/cleaner3-section-bg1.png); padding-top: 10%;">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-6 mb-4 valign-middle" style="padding:0 5%">
@@ -149,7 +213,7 @@
 										<div class="row">								
 											<div class="col-md-6">
 												<div class="quick_fact align_left animate-math">
-													<div class="number-wrapper">	<span class="number" data-to="25">25</span><span class="label postfix">%</span>
+													<div class="number-wrapper" style="color:#0069ab;">	<span class="number" data-to="25" style="color:#0069ab;">25</span><span class="label postfix">%</span>
 													</div>
 													<hr class="hr_narrow">
 													<div class="desc">
@@ -160,7 +224,7 @@
 											</div>
 											<div class="col-md-6">
 												<div class="quick_fact align_left animate-math">
-													<div class="number-wrapper">	<span class="number" data-to="75">75</span><span class="label postfix">%</span>
+													<div class="number-wrapper" style="color:#0069ab;">	<span class="number" data-to="75" style="color:#0069ab;">75</span><span class="label postfix">%</span>
 													</div>
 													<hr class="hr_narrow">
 													<div class="desc">
