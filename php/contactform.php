@@ -1,9 +1,4 @@
 <?php
-
- // ++++++++++++++++++++++++++++++++++++
-error_reporting(0);
-
-  
  // configuration
  
 $email_it_to = "your_own_email_address@some_domain.com";
@@ -37,8 +32,6 @@ $email_message .="\n\n";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8". "\r\n";
 $headers .= 'From: '.stripslashes($name);
-
-//$headers .= 'From: <'.$email_from.'>' . "\r\n";
 
 mail($email_it_to,$subject,$email_message,$headers);
 

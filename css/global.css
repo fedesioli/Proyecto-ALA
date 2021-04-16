@@ -2,7 +2,7 @@
 |-------------------------------------------------------------------------
 | Be
 | Global style
-| version 6.8
+| version 7.0
 | http://BeantownThemes.com
 | http://themeforest.net/user/BeantownThemes
 |--------------------------------------------------------------------------
@@ -2735,7 +2735,7 @@ hr, .hr_wide, .hr_zigzag, .hr_dots {
 hr.hr_narrow {
 	width: 7%
 }
-hr.no_line {
+hr.no_line,.dark hr.no_line {
 	background: none;
 	color: transparent;
 }
@@ -18533,7 +18533,7 @@ body.nice-scroll:not(.layout-boxed) {
 .widget_mfn_recent_comments ul li p {
 	margin-bottom: 0
 }
-/* Recent comments wordpress */
+/* Recent comments*/
 
 .widget_recent_comments ul li {
 	padding-bottom: 5px;
