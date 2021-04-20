@@ -3,7 +3,22 @@
   #pasodesktop{
     display: none;
   }
-  
+  #herodesktop{
+    background-image: url(/imgss/heromobile2.png);
+    height: 812px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .titulodesktop{
+    width: 85%;
+  }
+  #seccionpibe{
+    padding-top: 10%;
+  }
 }
 
 @media only screen and (min-width: 458px) {
@@ -14,5 +29,25 @@
   #heromobile{
     display: none;
   }
+  
+#herodesktop{
+  width: 100%;
+    height: 800px;
+    max-height: 100%;
+    margin: 0;
+    padding: 10%;
+    background-image: url(/imgss/heronuevoprueba.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.titulodesktop{
+  width: 60%;
+}
   
 }
